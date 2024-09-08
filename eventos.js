@@ -3,7 +3,7 @@ function saludar(event) {
     alert('Hola!');
 }
 
-const divContenedor = document.querySelector('.contenedor');
+const divContenedor = document.getElementById('contenedor');
 
 divContenedor.addEventListener('click', function() {
     alert('Hola! Soy el div');
